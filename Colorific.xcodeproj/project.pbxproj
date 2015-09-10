@@ -12,6 +12,7 @@
 		931731D21B881507006C2329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931731D01B881507006C2329 /* Main.storyboard */; };
 		931731D41B881507006C2329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931731D31B881507006C2329 /* Assets.xcassets */; };
 		931731D71B881507006C2329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931731D51B881507006C2329 /* LaunchScreen.storyboard */; };
+		931731DF1B8945B8006C2329 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931731DE1B8945B8006C2329 /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		931731D31B881507006C2329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931731D61B881507006C2329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931731D81B881507006C2329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931731DE1B8945B8006C2329 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				931731CC1B881507006C2329 /* AppDelegate.swift */,
 				931731CE1B881507006C2329 /* ViewController.swift */,
+				931731DE1B8945B8006C2329 /* ColorViewController.swift */,
 				931731D01B881507006C2329 /* Main.storyboard */,
 				931731D31B881507006C2329 /* Assets.xcassets */,
 				931731D51B881507006C2329 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931731CF1B881507006C2329 /* ViewController.swift in Sources */,
+				931731DF1B8945B8006C2329 /* ColorViewController.swift in Sources */,
 				931731CD1B881507006C2329 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
